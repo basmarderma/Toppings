@@ -49,7 +49,14 @@ p{
         transform: scale(.4);
     }
 
+    @media (max-width:765px) {
+    body{
+        display: flex;
+    }
+}
+
     to{
         transform: scale(1)
     }
+
 }
